@@ -37,6 +37,24 @@ public class ListAdsDao implements Ads {
             "JavaScript Developer needed",
             "Must have strong Java skills"
         ));
+        ads.add(new Ad(
+                5,
+                3,
+                "Super System Attendant",
+                "Minimum 7 years of experience required. You will be working in the scripting language of attendant"
+        ));
+        ads.add(new Ad(
+                6,
+                2,
+                "Marry Me?",
+                "Minimum 7 years of communication skills, and relationship and team building abilities."
+        ));
+        ads.add(new Ad(
+                7,
+                4,
+                "Just looking for friends??",
+                "Friendship wanted, friendship needed. Thank You."
+        ));
         return ads;
     }
 }
