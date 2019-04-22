@@ -49,3 +49,8 @@ public class Ad {
         this.description = description;
     }
 }
+
+
+/*
+INSERT INTO ads (user_id, title, description)
+    VALUES ('1', 'High Quality Things', 'Looking for some high quality stuff to buy.');*/
